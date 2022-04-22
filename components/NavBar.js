@@ -43,22 +43,25 @@ export default function NavBar() {
 		},
 	];
 	return (
-		<nav className={styles.nav}>
-			{paths.map((path) =>
-				router.route == path.href ? (
-					<Link href={path.href}>
-						<a className={styles.link}>
-							<b>{path.content}</b>
-						</a>
-					</Link>
-				) : (
-					<Link href={path.href}>
-						<a className={`${styles.link} ${styles.linkHover}`}>
-							{path.content}
-						</a>
-					</Link>
-				)
-			)}
-		</nav>
+		<>
+			<nav className={styles.nav}>
+				{paths.map((path, index) =>
+					router.route == path.href ? (
+						<Link href={path.href} key={index}>
+							<a className={styles.link}>
+								<b>{path.content}</b>
+							</a>
+						</Link>
+					) : (
+						<Link href={path.href} key={index}>
+							<a className={`${styles.link} ${styles.linkHover}`}>
+								{path.content}
+							</a>
+						</Link>
+					)
+				)}
+			</nav>
+			<span className={styles.offset}></span>
+		</>
 	);
 }

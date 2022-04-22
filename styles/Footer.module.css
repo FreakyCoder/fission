@@ -2,9 +2,12 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: #330085;
 	color: white;
-	text-align: center;
+	height: 64px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .link {
 	text-decoration: underline;
