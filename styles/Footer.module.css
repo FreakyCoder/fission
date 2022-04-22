@@ -1,0 +1,18 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #330085;
+	color: white;
+	text-align: center;
+}
+.link {
+	text-decoration: underline;
+	transition: color 0.2s;
+}
+.link:hover {
+	color: rgba(255, 255, 255, 0.75);
+}
+.text {
+	margin: 0;
+}
