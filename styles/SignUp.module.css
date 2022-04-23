@@ -1,0 +1,156 @@
+.main {
+	width: 100%;
+	height: calc(100% - 2 * 64px);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 0;
+	height: 100%;
+	color: white;
+	font-size: 7.5rem;
+}
+@media only screen and (max-width: 1280px) {
+	.side {
+		font-size: 5rem;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.side {
+		display: none;
+	}
+}
+.side > h1 {
+	font-size: inherit;
+	margin: 1rem 0;
+}
+.side > .fission {
+	font-size: inherit;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.side > .fission > .title {
+	margin-left: 1rem;
+}
+.form {
+	position: relative;
+	flex: 1 1 0;
+	height: 100%;
+}
+.form > iframe {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	border-radius: 1rem;
+}
+.spinner {
+	color: white;
+	font-size: 72px;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loader {
+	margin: 100px auto;
+	font-size: 25px;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	position: relative;
+	text-indent: -9999em;
+	animation: load 1.1s infinite ease;
+	transform: translateZ(0);
+}
+@keyframes load {
+	0%,
+	100% {
+		box-shadow: 0em -2.6em 0em 0em #ffffff,
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
+	}
+	12.5% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
+			1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
+	}
+	25% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em #ffffff,
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+	}
+	37.5% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.7),
+			1.75em 1.75em 0 0em #ffffff,
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+	}
+	50% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.5),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.7),
+			0em 2.5em 0 0em #ffffff, -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+	}
+	62.5% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em #ffffff,
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+	}
+	75% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.5),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7),
+			-2.6em 0em 0 0em #ffffff,
+			-1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+	}
+	87.5% {
+		box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+			1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+			2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+			1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+			0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+			-1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
+			-2.6em 0em 0 0em rgba(255, 255, 255, 0.7),
+			-1.8em -1.8em 0 0em #ffffff;
+	}
+}

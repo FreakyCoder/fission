@@ -43,7 +43,6 @@
 	flex: 1 1 0;
 	border-radius: 1rem;
 	height: 100%;
-	background-color: white;
 	overflow: auto;
 }
 .info > .content {
@@ -54,6 +53,7 @@
 	justify-content: center;
 	align-items: center;
 	color: #333;
+	background-color: #f0ebf8;
 }
 .info > .content > hr {
 	width: 100%;
