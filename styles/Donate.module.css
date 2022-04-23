@@ -1,53 +1,7 @@
-.main {
-	width: 100%;
-	height: calc(100% - 2 * 64px);
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: row;
-}
-.side {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	flex: 1 1 0;
-	height: 100%;
-	color: white;
-	font-size: 7.5rem;
-}
-@media only screen and (max-width: 1280px) {
-	.side {
-		font-size: 5rem;
-	}
-}
-@media only screen and (max-width: 1024px) {
-	.side {
-		display: none;
-	}
-}
-.side > h1 {
-	font-size: inherit;
-	margin: 1rem 0;
-}
-.side > .fission {
-	font-size: inherit;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-.side > .fission > .title {
-	margin-left: 1rem;
-}
-.info {
-	flex: 1 1 0;
-	border-radius: 1rem;
-	height: 100%;
-	overflow: auto;
-}
-.info > .content {
+.content {
 	padding: 0 5%;
 	height: 100%;
+	border-radius: 1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -55,19 +9,19 @@
 	color: #333;
 	background-color: #f0ebf8;
 }
-.info > .content > hr {
+.content > hr {
 	width: 100%;
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-.info > .content > h1 {
+.content > h1 {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 	font-size: 3.5rem;
 	font-weight: 300;
 	margin: 0.5rem;
 }
-.info > .content > p {
+.content > p {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 1.25rem;
 	font-weight: 300;

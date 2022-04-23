@@ -1,0 +1,52 @@
+.main {
+	width: 100%;
+	height: calc(100% - 2 * 64px);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 0;
+	height: 100%;
+	color: white;
+	font-size: 7.5rem;
+}
+@media only screen and (max-width: 1280px) {
+	.side {
+		font-size: 5rem;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.side {
+		display: none;
+	}
+}
+.side > h1 {
+	font-size: inherit;
+	margin: 1rem 0;
+}
+.side > .fission {
+	font-size: inherit;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.side > .fission > .title {
+	margin-left: 1rem;
+}
+.content {
+	flex: 1 1 0;
+	height: 100%;
+}
+.content > iframe {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	border-radius: 1rem;
+}
