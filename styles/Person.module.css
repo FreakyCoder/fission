@@ -1,0 +1,45 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.col1 {
+	position: relative;
+	flex: 0 0 30%;
+	padding: 0;
+}
+.col2 {
+	flex: 0 0 70%;
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.col2 > h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: 2.5rem;
+	font-weight: 300;
+	margin: 0.5rem;
+}
+.col2 > h2 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 100;
+}
+.col2 > hr {
+	width: 100%;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.mail {
+	font-weight: bold;
+	border-bottom: 1px solid #333;
+	transition: all 0.2s;
+	color: rgba(0, 0, 0, 0.8);
+}
+.mail:hover {
+	color: rgba(0, 0, 0, 0.5);
+	border-color: rgba(0, 0, 0, 0.5);
+}
