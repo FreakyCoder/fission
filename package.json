@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "image-size": "^1.0.1",
     "next": "12.1.5",
+    "plaiceholder": "^2.3.0",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "sharp": "^0.30.4"
   },
   "devDependencies": {
     "eslint": "8.13.0",

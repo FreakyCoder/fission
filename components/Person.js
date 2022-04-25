@@ -9,6 +9,8 @@ export default function Person({ data }) {
 					src={data.image.src}
 					width={data.image.width}
 					height={data.image.height}
+					placeholder="blur"
+					blurDataURL={data.image.blurDataURL}
 					layout="responsive"
 				/>
 			</div>

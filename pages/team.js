@@ -1,7 +1,7 @@
 import Person from "../components/Person";
 import PageWrapper from "../components/PageWrapper";
 import styles from "../styles/Team.module.css";
-import imageSize from "image-size";
+import { getPlaiceholder } from "plaiceholder";
 
 export default function Team({ people }) {
 	return (
@@ -25,13 +25,12 @@ export async function getStaticProps(context) {
 	const { default: data } = await import("../metadata/team.json");
 	const people = await Promise.all(
 		data.map(async (p) => {
-			const img = await imageSize(p.image);
+			const { base64, img } = await getPlaiceholder(p.image);
 			return {
 				...p,
 				image: {
-					src: p.image.substring(6),
-					width: img.width,
-					height: img.height,
+					...img,
+					blurDataURL: base64,
 				},
 			};
 		})
