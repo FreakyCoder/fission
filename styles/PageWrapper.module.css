@@ -44,9 +44,3 @@
 	flex: 1 1 0;
 	height: 100%;
 }
-.content > iframe {
-	height: 100%;
-	width: 100%;
-	border: 0;
-	border-radius: 1rem;
-}
