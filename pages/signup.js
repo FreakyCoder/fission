@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
 import styles from "../styles/SignUp.module.css";
 
@@ -6,6 +7,9 @@ export default function SignUp() {
 	const [spinner, setSpinner] = useState(true);
 	return (
 		<PageWrapper text="Sign up for">
+			<Head>
+				<title>FISSION :: Sign Up</title>
+			</Head>
 			<div className={styles.container}>
 				{spinner && (
 					<span className={styles.spinner}>

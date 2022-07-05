@@ -1,9 +1,13 @@
+import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
 import styles from "../styles/Donate.module.css";
 
 export default function Donate() {
 	return (
 		<PageWrapper text="Donate to">
+			<Head>
+				<title>FISSION :: Donate</title>
+			</Head>
 			<div className={styles.content}>
 				<h1>Donate</h1>
 				<hr />

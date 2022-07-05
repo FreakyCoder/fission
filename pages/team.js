@@ -2,10 +2,14 @@ import Person from "../components/Person";
 import PageWrapper from "../components/PageWrapper";
 import styles from "../styles/Team.module.css";
 import { getPlaiceholder } from "plaiceholder";
+import Head from "next/head";
 
 export default function Team({ people }) {
 	return (
 		<PageWrapper text="Team of">
+			<Head>
+				<title>FISSION :: Team</title>
+			</Head>
 			<div className={styles.content}>
 				<h1>Contacts for FISSION</h1>
 				<h2>

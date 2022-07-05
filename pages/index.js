@@ -1,14 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import PageWrapper from "../components/PageWrapper";
 //import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<>
-			<NavBar />
-			<Footer />
-		</>
+		<PageWrapper text="Home of">
+			<Head>
+				<title>FISSION:: Home</title>
+			</Head>
+		</PageWrapper>
 	);
 }
