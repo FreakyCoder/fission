@@ -1,6 +1,6 @@
 import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
-import styles from "../styles/Donate.module.css";
+import styles from "../styles/General.module.css";
 
 export default function Donate() {
 	return (

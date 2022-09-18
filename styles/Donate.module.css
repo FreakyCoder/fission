@@ -26,12 +26,3 @@
 	font-size: 1.25rem;
 	font-weight: 300;
 }
-.mail {
-	font-weight: bold;
-	border-bottom: 1px solid #333;
-	transition: all 0.2s;
-}
-.mail:hover {
-	color: rgba(0, 0, 0, 0.5);
-	border-color: rgba(0, 0, 0, 0.5);
-}

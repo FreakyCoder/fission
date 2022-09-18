@@ -1,6 +1,6 @@
 import Person from "../components/Person";
 import PageWrapper from "../components/PageWrapper";
-import styles from "../styles/Team.module.css";
+import styles from "../styles/General.module.css";
 import { getPlaiceholder } from "plaiceholder";
 import Head from "next/head";
 
