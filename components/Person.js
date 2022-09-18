@@ -12,6 +12,7 @@ export default function Person({ data }) {
 					placeholder="blur"
 					blurDataURL={data.image.blurDataURL}
 					layout="responsive"
+					alt=""
 				/>
 			</div>
 			<div className={styles.col2}>

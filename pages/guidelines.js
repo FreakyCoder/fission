@@ -480,7 +480,7 @@ export default function Guidelines() {
 							<td> Creativity and Originality </td>
 							<td>
 								Provides a solution: theoretical or practical to
-								a problem, based on the student &apos s
+								a problem, based on the student&apos;s
 								application of their knowledge and creating
 								their own product.
 								<br />
