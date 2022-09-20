@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Logo from "./Logo";
 import styles from "../styles/NavBar.module.css";
 
 export default function NavBar() {
@@ -7,7 +8,12 @@ export default function NavBar() {
 	const paths = [
 		{
 			href: "/",
-			content: "Home",
+			content: (
+				<div className={styles.home}>
+					<Logo />
+					Home
+				</div>
+			),
 		},
 		{
 			href: "/signup",

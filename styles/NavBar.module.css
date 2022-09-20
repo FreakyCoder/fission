@@ -26,3 +26,11 @@
 	width: 100%;
 	height: 64px;
 }
+
+.home {
+	display: flex;
+	align-items: center;
+}
+.home > *:first-child {
+	margin-right: 0.2em;
+}
