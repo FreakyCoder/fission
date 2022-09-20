@@ -7,24 +7,34 @@
 	flex-direction: row;
 }
 
-.side {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 25%;
+.content {
+	flex: 1 1 0;
 	height: 100%;
-	color: white;
-	font-size: 4rem;
+	margin: 0 2%;
 }
-@media only screen and (max-width: 1920px) {
+
+.side {
+	display: none;
+	color: white;
+}
+@media only screen and (min-width: 1920px) {
 	.side {
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
 	.side {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 25%;
+		height: 100%;
+		font-size: 3rem;
+	}
+	.content {
+		margin: 0;
+		margin-right: 2%;
 	}
 }
 .side > h1 {
@@ -39,8 +49,4 @@
 }
 .side > .fission > .title {
 	margin-left: 1rem;
-}
-.content {
-	flex: 1 1 0;
-	height: 100%;
 }
