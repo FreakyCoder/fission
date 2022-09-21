@@ -11,7 +11,7 @@
 }
 .spinner {
 	color: white;
-	font-size: 72px;
+	font-size: 4.5rem;
 	position: absolute;
 	z-index: 1;
 	top: 0;
