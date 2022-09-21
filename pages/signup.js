@@ -17,7 +17,7 @@ export default function SignUp() {
 					</span>
 				)}
 				<iframe
-					src="https://docs.google.com/forms/d/e/1FAIpQLSdsaYDRkoBzpWnSYTwyC1DFaOCJZNSzZxgTEtw6ig-rlVxZNA/viewform?usp=sf_link"
+					src="https://forms.gle/hQRSw9pTUrzFXoL26"
 					className={styles.frame}
 					onLoad={() => setSpinner(false)}
 				/>

@@ -15,9 +15,15 @@ export default function Guidelines() {
 				<p>
 					Each team consists of 1-3 members. There are no restrictions
 					on the backgrounds of teammates such as which school they
-					atend apart from the requirment that no team member should
+					attend apart from the requirment that no team member should
 					have progressed to high school in case the team competes in
 					the Junior Category.
+					<br />
+					<br />
+					<b>
+						Teams with projects that have participated in other
+						competitions are also encouraged to join.
+					</b>
 					<br />
 					<br />
 					<i>
@@ -28,29 +34,10 @@ export default function Guidelines() {
 				</p>
 				<h2>Categories</h2>
 				<p>
-					The projects taking part in Fission are divided in six
-					categories:
-				</p>
-				<ol>
-					<li> Biomedical, Biological, and Chemical Sciences </li>
-					<li> Computer Science </li>
-					<li> Mathematics </li>
-					<li> Ecology and Environmental Science </li>
-					<li> Physical Sciences and Engineering </li>
-					<li> Junior Category </li>
-				</ol>
-				<p>
-					Each project within each category may be one of the
-					following types:
-				</p>
-				<ol>
-					<li> Experiment </li>
-					<li> Working Model </li>
-				</ol>
-				<h2> Choosing a category </h2>
-				<p>
 					Make sure to become familiar with the requirements for your
-					category before submitting the registration form.
+					category before submitting the registration form. The
+					projects taking part in FISSION are divided in six
+					categories:
 				</p>
 				<ul>
 					<li>
@@ -88,6 +75,25 @@ export default function Guidelines() {
 						categories if they wish.
 					</li>
 				</ul>
+				<p>
+					Each project within each category may be one of the
+					following types:
+				</p>
+				<ul>
+					<li>
+						<b>Experiment</b>
+					</li>
+					<li>
+						<b>Working Model</b>
+					</li>
+				</ul>
+				<p>
+					All projects must compete in one category only. Students
+					with projects from intermediate disciplines (Bioinformatics,
+					Biophysics, Neuroscience, Palaeontology), as well projects
+					using methods, or ideas from many areas must choose the
+					category they think their project fits best in.
+				</p>
 				<h2> Experiment </h2>
 				<p>
 					An experiment is a research of a question in an attempt to
@@ -168,46 +174,49 @@ export default function Guidelines() {
 					video should be with you at the fair on a flash drive.
 				</p>
 				<h2>Requirements</h2>
-				<p>At Fission, all participants MUST:</p>
+				<p>At FISSION, all participants MUST:</p>
 				<ol>
 					<li>
 						Be able to present their projects orally before the
-						judges and answer questions on them. Each presentation
-						must be in English, and its duration should be between 5
-						and 10 minutes. It is to be followed by a five-minute
-						period in which the jurors can ask questions.
-						Participants who are not confident with their English
-						may use a language helper provided by us.
+						judges and answer questions about their project. Each
+						presentation must be in English, and its duration should
+						be between 5 and 10 minutes. It is to be followed by a
+						five-minute period in which the jurors can ask
+						questions. Participants who are not confident with their
+						English may use a language helper provided by us.
 					</li>
 					<li>
-						Aditionally:
+						Additionally:
 						<ul>
 							<li>
 								All participants, regardless of the category in
-								which they compete, must prepare a video
+								which they compete, may prepare a video
 								demonstrating and explaining their work (model
 								or experiment) that is to be sumbitted before
 								the respective deadline and that should be of
-								appropriate length.
+								appropriate length. However, a live
+								demonstration is preferable.
 							</li>
 							<li>
 								All who participate with an Experiment must have
 								a lab report of their work. These reports are
 								needed for the jury to determine the winning
-								project in each type.
+								project in each type and must be submitted
+								before the respective deadline.
 							</li>
 							<li>
 								All who participate with a Working Model must
 								provide a report with the working principles and
 								materials of their model, which are needed for
 								the jury to determine the winning project in
-								each type.
+								each type. This report should be submitted
+								before the respective deadline.
 							</li>
 						</ul>
 					</li>
 					<li>
-						For further instructions check the rubric tables down
-						bellow:
+						For further instructions, check the rubric tables down
+						below:
 					</li>
 				</ol>
 				<h2>Rubric for Original Experimental Project </h2>
@@ -597,148 +606,9 @@ export default function Guidelines() {
 						</tr>
 					</tbody>
 				</table>
-				<h2>Video Presentation Rubric </h2>
-				<table>
-					<colgroup>
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-					</colgroup>
-					<thead>
-						<tr>
-							<th> Criteria / Score </th>
-							<th> Excellent - 5 </th>
-							<th> Good - 3 </th>
-							<th> Needs Improvement - 1 </th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td> Content </td>
-							<td>
-								Covers the topic in-depth with detail and
-								examples - demonstration.
-								<br />
-								Recognizes the validity and importance of the
-								project subject.
-								<br />
-								Demonstrates deep understanding of the relevant
-								concepts.
-								<br />
-								Provides clear analysis and subject- pertinent
-								examples and facts support conclusions/ideas
-								with evidence.
-							</td>
-							<td>
-								Covers the topic as assigned with fewer examples
-								and theoretical detail.
-								<br />
-								Recognizes the validity and importance of the
-								subject.
-								<br />
-								Demonstrates an understanding of the relevant
-								concepts.
-								<br />
-								Provides limited analysis and interpretation of
-								the problem to support the conclusions/ideas.
-							</td>
-							<td>
-								Covers the topic as assigned with little or lack
-								of relevant information.
-								<br />
-								Recognizes the importance of the subject.
-								<br />
-								Is uncomfortable with the information.
-								<br />
-								Provides weak examples, facts, which do not
-								adequately support the ideas or conclusions.
-							</td>
-						</tr>
-						<tr>
-							<td> Delivery </td>
-							<td>
-								Holds attention of the audience; Demonstrates
-								enthusiasm about the topic.
-								<br />
-								There are no mistakes in the English language
-								and sentence structure.
-								<br />
-								Speaks with fluctuation in volume and inflexion
-								to emphasizes key points.
-								<br />
-								Communicates understanding in a clear and
-								logical manner.
-							</td>
-							<td>
-								Demonstrates some enthusiasm about the topic.
-								<br />
-								There are little mistakes in the English
-								language and sentence structure.
-								<br />
-								Speaks with satisfactory variation in volume and
-								inflexion.
-								<br />
-								Communicates understanding in a reasonably clear
-								and logical manner.
-							</td>
-							<td>
-								Displays minimal enthusiasm about the topic.
-								<br />
-								There are mistakes in the English language and
-								sentence structure.
-								<br />
-								Speaks in low volume and/or monotonous tone.
-								<br />
-								Demonstrates little ability to communicate the
-								understanding of physics concepts.
-							</td>
-						</tr>
-						<tr>
-							<td> Videography </td>
-							<td>
-								The overall quality of the video and focus are
-								excellent.
-								<br />
-								Provides variety in the video: different shots,
-								camera angle, sound effects, zooming etc...
-								<br />
-								Transitions are smooth.
-								<br />
-								The product shows originality.
-							</td>
-							<td>
-								The overall quality of the video meets
-								expectations.
-								<br />
-								Provides certain variety in the video.
-								<br />
-								Transitions are smooth.
-								<br />
-								The product shows originality.
-							</td>
-							<td>
-								The overall quality of the video is poor-does
-								not meet time and other expectations.
-								<br />
-								Provides no variety.
-								<br />
-								Transitions are absent or inadequate.
-								<br />
-								The product shows little to no creativity /
-								originality.
-							</td>
-						</tr>
-					</tbody>
-				</table>
 				<p>
-					All projects must compete in one category only. Students
-					with projects from intermediate disciplines (Bioinformatics,
-					Biophysics, Neuroscience, Palaeontology), as well projects
-					using methods, or ideas from many areas must choose the
-					category they think their project fits best in.
-				</p>
-				<p>
+					<br />
+					<br />
 					<b>
 						AVOID USING ANY HAZARDOUS MATERIALS IN YOUR PROJECTS. DO
 						NOT USE ANY LIVING ANIMALS - THAT INCLUDES (BUT IS NOT

@@ -36,6 +36,14 @@ export default function Donate() {
 					>
 						g.metodiev@acsbg.org
 					</a>
+					.
+				</p>
+				<p>
+					To sponsor the event, email us at{" "}
+					<a href="mailto:fission@acsbg.org" className={styles.mail}>
+						fission@acsbg.org
+					</a>
+					.
 				</p>
 			</div>
 		</PageWrapper>

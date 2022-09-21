@@ -24,10 +24,6 @@ export default function NavBar() {
 			content: "Guidelines",
 		},
 		{
-			href: "/schedule",
-			content: "Schedule",
-		},
-		{
 			href: "/jury",
 			content: "Jury",
 		},

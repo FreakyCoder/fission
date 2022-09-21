@@ -18,6 +18,16 @@ export default function Home() {
 						<a>students</a>
 					</Link>{" "}
 					for students.
+					<br />
+					<br />
+					Our goal is to provoke students to take knowledge outside of
+					the classroom. We want to challenge their creativity as they
+					explore the practical applications of theoretical science.
+					We also aim to unite students from different countries and
+					scientific interests and create a community of ambitious
+					young scientists. The online format this year will enable
+					participation from all around the world, with direct
+					communication between the participants and the jury.
 				</p>
 				<iframe
 					width="560"
@@ -29,9 +39,9 @@ export default function Home() {
 				></iframe>
 				<h2>Where and when?</h2>
 				<p>
-					March 26th, 2022
+					March 31st - April 1st, 2023
 					<br />
-					Online, right from your computer :)
+					At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
 				</p>
 				<h2>Why?</h2>
 				<p>
@@ -39,60 +49,111 @@ export default function Home() {
 					knowledge and ideas with young scientists from all over
 					Europe, have fun and get inspired!
 				</p>
-				<h2>What is our goal?</h2>
-				<p>
-					Our goal is to provoke students to take knowledge outside of
-					the classroom. We want to challenge their creativity as they
-					explore the practical applications of theoretical science.
-					We also aim to unite students from different countries and
-					scientific interests and create a community of ambitious
-					young scientists. The online format this year will enable
-					participation from all around the world, with direct
-					communication between the participants and the jury.
-				</p>
 				<h2>Timeline</h2>
+				<table>
+					<colgroup>
+						<col width="20%" />
+						<col width="80%" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>01.12.2022</td>
+							<td>Registration deadline </td>
+						</tr>
+						<tr>
+							<td>01.03.2023</td>
+							<td>Project submission deadline</td>
+						</tr>
+						<tr>
+							<td>31.03.2023 (Friday)</td>
+							<td>Arrive in Sofia & Check-in</td>
+						</tr>
+						<tr>
+							<td>01.04.2023 (Saturday)</td>
+							<td>FISSION Event & Awards</td>
+						</tr>
+					</tbody>
+				</table>
 				<h3>
-					<i>Due March 10th</i>
+					On the Day of the Event (01.04.2023)
+					{/*<i>Durations are subject to change</i> */}
 				</h3>
 				<p>
-					Read the{" "}
-					<Link href="/guidelines">
-						<a>guidelines</a>
-					</Link>{" "}
-					before you apply. Form a team of 1-3 members and find an
-					academic advisor if you wish. Decide on a topic and category
-					in which to compete. Finally, make sure that either you,
-					another team member, or your advisor fill out the{" "}
-					<Link href="/signup">
-						<a>application form</a>
-					</Link>
-					. Submit your project materials at our e-mail address:{" "}
+					<ul>
+						<li>Opening Ceremony</li>
+						<li>Meetings with jury</li>
+						<li>Campus tour</li>
+						<li>Other activities</li>
+						<li>Awards Ceremony</li>
+						<li>Participants departure</li>
+					</ul>
+				</p>
+				{/*                 <table>
+				 *                     <colgroup>
+				 *                         <col width="20%" />
+				 *                         <col width="20%" />
+				 *                         <col width="60%" />
+				 *                     </colgroup>
+				 *                     <tbody>
+				 *                         <tr>
+				 *                             <td> 11:00 - 11:30 </td>
+				 *                             <td> Opening Ceremony </td>
+				 *                             <td>
+				 *                                 Official speeches of the honorable guests from
+				 *                                 ACS; Introduction of the jury; General
+				 *                                 instruction about the event and presentation of
+				 *                                 the schedule.
+				 *                             </td>
+				 *                         </tr>
+				 *                         <tr>
+				 *                             <td> 11:30-11:50 </td>
+				 *                             <td> New Bulgarian University </td>
+				 *                             <td>
+				 *                                 FISSION Partners New Bulgarian University
+				 *                                 present their institution.
+				 *                             </td>
+				 *                         </tr>
+				 *                         <tr>
+				 *                             <td> 11:50-12:10 </td>
+				 *                             <td> Games and Activities </td>
+				 *                             <td>
+				 *                                 A chance for everyone in the live meeting to win
+				 *                                 prizes and enjoy the event.
+				 *                             </td>
+				 *                         </tr>
+				 *                         <tr>
+				 *                             <td> 12:10-12:40 </td>
+				 *                             <td> EnduroSat Presentation</td>
+				 *                             <td>
+				 *                                 Meet an exciting company and get a chacne to ask
+				 *                                 questions at the end.
+				 *                             </td>
+				 *                         </tr>
+				 *                         <tr>
+				 *                             <td> 12:40-12:50 </td>
+				 *                             <td> Award Ceremony</td>
+				 *                             <td>
+				 *                                 Jury members anounce FISSION 2022 winners in
+				 *                                 each category.
+				 *                             </td>
+				 *                         </tr>
+				 *
+				 *                         <tr>
+				 *                             <td> 12:50-13:00 </td>
+				 *                             <td> Closing Ceremony</td>
+				 *                             <td> Closing video address.</td>
+				 *                         </tr>
+				 *                     </tbody>
+				 *                 </table> */}
+				<p>
+					Please submit your report through the official FISSION email
+					address:{" "}
 					<a className={styles.mail} href="mailto:fission@acsbg.org">
 						fission@acsbg.org
 					</a>
-					. These include a research article (report) that is going to
-					be evaluated by our jury. In addition, each team has to
-					submit a short video presentation in which they present
-					their project.
+					.
 				</p>
-				<h3>
-					<i>On March 19th and 20th</i>
-				</h3>
-				<p>
-					Your team will be invited to present their project and be
-					questioned by our jury. You don&apos;t have to stress about
-					this and instead think of it as an opportunity to impress
-					people with your work.
-				</p>
-				<h3>
-					<i>On March 26th</i>
-				</h3>
-				<p>
-					Attend the event via{" "}
-					<a href="https://us02web.zoom.us/j/81187518114s">zoom</a>{" "}
-					and enjoy the activities. Take part in the award ceremony
-					and congratulate the winning teams.
-				</p>
+				<p>Accommodation is organized by FISSION team. </p>
 				<h2>Official Partner</h2>
 				<NBU />
 				<h3>
@@ -103,7 +164,9 @@ export default function Home() {
 					</i>
 				</h3>
 				<hr />
-				<h2>We can&apos;t wait to see you!</h2>{" "}
+				<h2 style={{ textAlign: "center" }}>
+					We can&apos;t wait to see you!
+				</h2>
 			</div>
 		</PageWrapper>
 	);
