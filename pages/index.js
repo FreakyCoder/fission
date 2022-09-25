@@ -78,16 +78,14 @@ export default function Home() {
 					On the Day of the Event (01.04.2023)
 					{/*<i>Durations are subject to change</i> */}
 				</h3>
-				<p>
-					<ul>
-						<li>Opening Ceremony</li>
-						<li>Meetings with jury</li>
-						<li>Campus tour</li>
-						<li>Other activities</li>
-						<li>Awards Ceremony</li>
-						<li>Participants departure</li>
-					</ul>
-				</p>
+				<ul>
+					<li>Opening Ceremony</li>
+					<li>Meetings with jury</li>
+					<li>Campus tour</li>
+					<li>Other activities</li>
+					<li>Awards Ceremony</li>
+					<li>Participants departure</li>
+				</ul>
 				{/*                 <table>
 				 *                     <colgroup>
 				 *                         <col width="20%" />

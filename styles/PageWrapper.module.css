@@ -1,14 +1,23 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
 .main {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 1;
 	width: 100%;
-	height: auto;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	flex-direction: row;
+	overflow: auto;
 }
 
 .content {
 	margin: 0 2%;
+	height: 100%;
 }
 
 .side {
@@ -18,6 +27,10 @@
 @media only screen and (min-width: 1920px) {
 	.side {
 		font-size: 4rem;
+		width: 20%;
+	}
+	.content {
+		width: 80%;
 	}
 }
 @media only screen and (min-width: 1280px) {
@@ -28,11 +41,12 @@
 		align-items: center;
 		width: 25%;
 		height: 100%;
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.content {
 		margin: 0;
 		margin-right: 2%;
+		width: 75%;
 	}
 }
 .side > h1 {
@@ -42,9 +56,10 @@
 .side > .fission {
 	font-size: inherit;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 }
-.side > .fission > .title {
-	margin-left: 1rem;
+
+.side > .fission > .logo {
+	font-size: calc(2em);
 }
