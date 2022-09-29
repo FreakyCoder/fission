@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import PageWrapper from "../components/PageWrapper";
 import NBU from "../components/NBU";
+import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
 				<title>FISSION:: Home</title>
 			</Head>
 			<div className={styles.content}>
+				<Banner />
 				<h2>What is FISSION?</h2>
 				<p>
 					FISSION is an international science fair organized by{" "}
@@ -29,14 +31,14 @@ export default function Home() {
 					participation from all around the world, with direct
 					communication between the participants and the jury.
 				</p>
-				<iframe
-					width="560"
-					height="315"
-					src="https://youtube.com/embed/1i8YE69bQ8o?controls=0"
-					frameBorder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowFullScreen
-				></iframe>
+				<div className={styles.iframeContainer}>
+					<iframe
+						src="https://youtube.com/embed/1i8YE69bQ8o?controls=0"
+						frameBorder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					></iframe>
+				</div>
 				<h2>Where and when?</h2>
 				<p>
 					March 31st - April 1st, 2023
