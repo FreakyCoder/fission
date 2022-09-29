@@ -20,7 +20,9 @@ export default function Footer() {
 					Privacy notice.
 				</a>
 			</span>
-			<p className={styles.text}>Made with ♥ by Kaloyan Dimitrov '25</p>
+			<p className={styles.text}>
+				Made with ♥ by Kaloyan Dimitrov &apos;25
+			</p>
 		</footer>
 	);
 }

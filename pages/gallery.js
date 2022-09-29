@@ -43,7 +43,6 @@ export async function getStaticProps(_) {
 			.readdirSync(p)
 			.map((img) => getPlaiceholder(path.join("/images/gallery/" + img)))
 	);
-	console.log(images);
 	return {
 		props: { images },
 	};

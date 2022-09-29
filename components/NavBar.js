@@ -24,18 +24,6 @@ export default function NavBar() {
 			content: "Guidelines",
 		},
 		{
-			href: "/jury",
-			content: "Jury",
-		},
-		{
-			href: "/team",
-			content: "Team",
-		},
-		{
-			href: "/archive",
-			content: "Archive",
-		},
-		{
 			href: "/donate",
 			content: "Donate",
 		},

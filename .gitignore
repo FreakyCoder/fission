@@ -6,6 +6,8 @@
 
 # testing
 /coverage
+# static files
+/_static/
 
 # next.js
 /.next/
