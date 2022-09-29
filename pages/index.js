@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<PageWrapper text="Home of">
 			<Head>
-				<title>FISSION:: Home</title>
+				<title>FISSION :: Home</title>
 			</Head>
 			<div className={styles.content}>
 				<Banner />
