@@ -41,7 +41,7 @@ export default function Home() {
 				</div>
 				<h2>Where and when?</h2>
 				<p>
-					March 31st - April 1st, 2023
+					March 24th - March 25th, 2023
 					<br />
 					At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
 				</p>
@@ -67,17 +67,17 @@ export default function Home() {
 							<td>Project submission deadline</td>
 						</tr>
 						<tr>
-							<td>31.03.2023 (Friday)</td>
+							<td>24.03.2023 (Friday)</td>
 							<td>Arrive in Sofia & Check-in</td>
 						</tr>
 						<tr>
-							<td>01.04.2023 (Saturday)</td>
+							<td>25.03.2023 (Saturday)</td>
 							<td>FISSION Event & Awards</td>
 						</tr>
 					</tbody>
 				</table>
 				<h3>
-					On the Day of the Event (01.04.2023)
+					On the Day of the Event (25.03.2023)
 					{/*<i>Durations are subject to change</i> */}
 				</h3>
 				<ul>
