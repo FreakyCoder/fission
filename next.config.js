@@ -2,7 +2,8 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ["fission.acs.bg"],
+		unoptimized: true,
+		path: "https://fission.acs.bg/",
 	},
 	webpack: (config) => {
 		config.resolve.fallback = {
@@ -11,6 +12,7 @@ const nextConfig = {
 		};
 		return config;
 	},
+	assetPrefix: "./",
 };
 
 module.exports = nextConfig;
