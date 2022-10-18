@@ -222,6 +222,12 @@ export default function Guidelines() {
 				</ol>
 				<h2>Rubric for Original Experimental Project </h2>
 				<ResponsiveTable>
+					<colgroup>
+						<col style={{ minWidth: "10em" }} />
+						<col style={{ minWidth: "25em" }} />
+						<col style={{ minWidth: "15em" }} />
+						<col style={{ minWidth: "15em" }} />
+					</colgroup>
 					<thead>
 						<tr>
 							<th> Criteria / Score </th>
@@ -465,6 +471,12 @@ export default function Guidelines() {
 				</ResponsiveTable>
 				<h2>Rubric for Working Model Project </h2>
 				<ResponsiveTable>
+					<colgroup>
+						<col style={{ minWidth: "10em" }} />
+						<col style={{ minWidth: "25em" }} />
+						<col style={{ minWidth: "15em" }} />
+						<col style={{ minWidth: "15em" }} />
+					</colgroup>
 					<thead>
 						<tr>
 							<th> Criteria / Score </th>
