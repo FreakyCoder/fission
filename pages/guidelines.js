@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
+import ResponsiveTable from "../components/ResponsiveTable";
 import styles from "../styles/General.module.css";
 
 export default function Guidelines() {
@@ -220,13 +221,7 @@ export default function Guidelines() {
 					</li>
 				</ol>
 				<h2>Rubric for Original Experimental Project </h2>
-				<table>
-					<colgroup>
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-					</colgroup>
+				<ResponsiveTable>
 					<thead>
 						<tr>
 							<th> Criteria / Score </th>
@@ -467,15 +462,9 @@ export default function Guidelines() {
 							<td> - </td>
 						</tr>
 					</tbody>
-				</table>
+				</ResponsiveTable>
 				<h2>Rubric for Working Model Project </h2>
-				<table>
-					<colgroup>
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-						<col width="25%" />
-					</colgroup>
+				<ResponsiveTable>
 					<thead>
 						<tr>
 							<th> Criteria / Score </th>
@@ -605,7 +594,7 @@ export default function Guidelines() {
 							<td> - </td>
 						</tr>
 					</tbody>
-				</table>
+				</ResponsiveTable>
 				<p>
 					<br />
 					<br />
