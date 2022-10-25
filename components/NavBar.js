@@ -24,8 +24,8 @@ export default function NavBar() {
 			content: "Guidelines",
 		},
 		{
-			href: "/donate",
-			content: "Donate",
+			href: "/sponsors",
+			content: "Sponsors",
 		},
 		{
 			href: "/gallery",
