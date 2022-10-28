@@ -4,6 +4,7 @@ import PageWrapper from "../components/PageWrapper";
 import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
+import SocialMediaButtons from "../components/SocialMediaButtons";
 
 export default function Home() {
 	return (
@@ -163,6 +164,9 @@ export default function Home() {
 						board of trusties.
 					</i>
 				</h3>
+				<hr />
+				<h2>Follow us on social media</h2>
+				<SocialMediaButtons />
 				<hr />
 				<h2 style={{ textAlign: "center" }}>
 					We can&apos;t wait to see you!

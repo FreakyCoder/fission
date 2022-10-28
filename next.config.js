@@ -1,3 +1,5 @@
+const { PHASE_DEVELOPMENT_SERVER } = require("next/dist/shared/lib/constants");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
@@ -12,7 +14,7 @@ const nextConfig = {
 		};
 		return config;
 	},
-	assetPrefix: "./",
+	assetPrefix: PHASE_DEVELOPMENT_SERVER ? undefined : "./",
 };
 
 module.exports = nextConfig;
