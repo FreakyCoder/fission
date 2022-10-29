@@ -1,0 +1,35 @@
+.container {
+	border: none;
+}
+
+.flex {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.link {
+	position: relative;
+	color: white;
+	background-color: #7f0080;
+	transition: background-color 0.1s linear;
+	border: none;
+	padding: 2%;
+	font-size: 1em;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.link::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0);
+	transition: background-color 0.1s linear;
+}
+.link:hover::before {
+	background-color: rgba(255, 255, 255, 0.3);
+}

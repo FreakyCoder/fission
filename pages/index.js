@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import PageWrapper from "../components/PageWrapper";
+import BecomeSponsorButton from "../components/BecomeSponsorButton";
 import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
@@ -164,6 +165,7 @@ export default function Home() {
 						board of trusties.
 					</i>
 				</h3>
+				<BecomeSponsorButton />
 				<hr />
 				<h2>Follow us on social media</h2>
 				<SocialMediaButtons />
