@@ -28,6 +28,10 @@ export default function NavBar() {
 			content: "Team",
 		},
 		{
+			href: "/jury",
+			content: "Jury",
+		},
+		{
 			href: "/sponsors",
 			content: "Sponsors",
 		},
