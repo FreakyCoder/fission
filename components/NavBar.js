@@ -24,6 +24,10 @@ export default function NavBar() {
 			content: "Guidelines",
 		},
 		{
+			href: "/team",
+			content: "Team",
+		},
+		{
 			href: "/sponsors",
 			content: "Sponsors",
 		},
