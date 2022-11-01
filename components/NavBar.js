@@ -32,6 +32,10 @@ export default function NavBar() {
 			content: "Jury",
 		},
 		{
+			href: "/archive",
+			content: "Archive",
+		},
+		{
 			href: "/sponsors",
 			content: "Sponsors",
 		},
