@@ -44,9 +44,13 @@ export default function Team() {
 						email="m.lozanov23@acsbg.org"
 						img={Martin}
 					/>
+					<Person
+						name="Krasimira Chakarova"
+						email="k.chakarova@acsbg.org"
+						img={KC}
+					/>
 				</div>
 				<div className={styles.photos}>
-					<Image src={KC} id={styles.KC} alt="Krasimira Chakarova" />
 					<Image src={Kaloyan} alt="Kaloyan Dimitrov" />
 					<Image src={Ali} alt="Aleksandra Daskalova" />
 					<Image src={Tedi} alt="Teodora Daskalova" />
