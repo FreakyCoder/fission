@@ -7,6 +7,7 @@ import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
 import SocialMediaButtons from "../components/SocialMediaButtons";
 import RegisterNowButton from "../components/RegisterNowButton";
+import EmbedVideo from "../components/EmbedVideo";
 
 export default function Home() {
 	return (
@@ -34,13 +35,7 @@ export default function Home() {
 					participation from all around the world, with direct
 					communication between the participants and the jury.
 				</p>
-				<div className={styles.iframeContainer}>
-					<iframe
-						src="https://youtube.com/embed/1i8YE69bQ8o?controls=0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-				</div>
+				<EmbedVideo href="https://youtube.com/embed/1i8YE69bQ8o" />
 				<h2>Where and when?</h2>
 				<p>
 					March 24th - March 25th, 2023
