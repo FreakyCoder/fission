@@ -31,21 +31,25 @@ export default function Team() {
 				<div className={styles.leaderPhotos}>
 					<Person
 						name="Teodora Marinova"
+						caption="Senior at the American College of Sofia"
 						email="t.marinova23@acsbg.org"
 						img={Teodora}
 					/>
 					<Person
 						name="Daniel Sevik"
+						caption="Senior at the American College of Sofia"
 						email="d.sevik23@acsbg.org"
 						img={Dani}
 					/>
 					<Person
 						name="Martin Lozanov"
+						caption="Senior at the American College of Sofia"
 						email="m.lozanov23@acsbg.org"
 						img={Martin}
 					/>
 					<Person
 						name="Krasimira Chakarova"
+						caption="Teacher Sponsor"
 						email="k.chakarova@acsbg.org"
 						img={KC}
 					/>

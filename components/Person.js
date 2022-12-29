@@ -1,7 +1,7 @@
 import Image from "next/future/image";
 import styles from "../styles/Person.module.css";
 
-export default function Person({ img, name, email, description }) {
+export default function Person({ img, name, caption, email }) {
 	return (
 		<div className={styles.container}>
 			<div className={styles.col1}>
@@ -9,10 +9,10 @@ export default function Person({ img, name, email, description }) {
 			</div>
 			<div className={styles.col2}>
 				<h1>{name}</h1>
+				<h2>{caption}</h2>
 				<a href={`mailto:${email}`} className={styles.mail}>
 					{email}
 				</a>
-				<h2>{description}</h2>
 			</div>
 		</div>
 	);
