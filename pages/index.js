@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import PageWrapper from "../components/PageWrapper";
-import BecomeSponsorButton from "../components/BecomeSponsorButton";
+import DonateOrBecomeSponsorButton from "../components/DonateOrBecomeSponsorButton";
 import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
@@ -162,10 +162,10 @@ export default function Home() {
 					<i>
 						Fission 2022 is brought to you with the support of the
 						Central Fund Of Strategic Development of NBU&apos;s
-						board of trusties.
+						board of trustees.
 					</i>
 				</h3>
-				<BecomeSponsorButton />
+				<DonateOrBecomeSponsorButton />
 				<hr />
 				<h2>Follow us on social media</h2>
 				<SocialMediaButtons />
