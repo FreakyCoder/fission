@@ -6,6 +6,7 @@ import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
 import SocialMediaButtons from "../components/SocialMediaButtons";
+import RegisterNowButton from "../components/RegisterNowButton";
 
 export default function Home() {
 	return (
@@ -36,7 +37,6 @@ export default function Home() {
 				<div className={styles.iframeContainer}>
 					<iframe
 						src="https://youtube.com/embed/1i8YE69bQ8o?controls=0"
-						frameBorder="0"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowFullScreen
 					></iframe>
@@ -47,6 +47,7 @@ export default function Home() {
 					<br />
 					At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
 				</p>
+				<RegisterNowButton />
 				<h2>Why?</h2>
 				<p>
 					FISSION is the place to meet like-minded individuals, share
