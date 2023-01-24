@@ -12,9 +12,14 @@ export default function SignUp() {
 			</Head>
 			<div className={styles.container}>
 				{spinner && (
-					<span className={styles.spinner}>
-						<span className={styles.loader}></span>
-					</span>
+					<>
+						<a href="https://forms.gle/hQRSw9pTUrzFXoL26">
+							If the form does&apos;t load, click here
+						</a>
+						<span className={styles.spinner}>
+							<span className={styles.loader}></span>
+						</span>
+					</>
 				)}
 				<iframe
 					src="https://forms.gle/hQRSw9pTUrzFXoL26"

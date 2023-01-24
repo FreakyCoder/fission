@@ -8,6 +8,7 @@ import styles from "../styles/General.module.css";
 import SocialMediaButtons from "../components/SocialMediaButtons";
 import RegisterNowButton from "../components/RegisterNowButton";
 import EmbedVideo from "../components/EmbedVideo";
+import Quote from "../components/Quote";
 
 export default function Home() {
 	return (
@@ -50,6 +51,9 @@ export default function Home() {
 					Europe, have fun and get inspired!
 				</p>
 				<h2>Timeline</h2>
+				<p style={{ color: "red" }}>
+					The registration deadline has been extended to 25 February
+				</p>
 				<table>
 					<colgroup>
 						<col width="20%" />
@@ -57,11 +61,11 @@ export default function Home() {
 					</colgroup>
 					<tbody>
 						<tr>
-							<td>15.01.2023</td>
+							<td>25.02.2023</td>
 							<td>Registration deadline </td>
 						</tr>
 						<tr>
-							<td>01.03.2023</td>
+							<td>12.03.2023</td>
 							<td>Project submission deadline</td>
 						</tr>
 						<tr>
@@ -151,7 +155,17 @@ export default function Home() {
 					</a>
 					.
 				</p>
-				<p>Accommodation is organized by FISSION team. </p>
+				<p>
+					Participants who have requested accommodation will be
+					contacted by our team. In case there is a financial hardship
+					or traveling is very inconvenient for the team, online
+					participation will also be an option. This will not
+					influence the project&apos;s score in any way, and it will
+					be evaluated equally with the projects presented in-person.
+					Online streaming of parts of the event will also be
+					available for the audience.
+				</p>
+				<Quote />
 				<h2>Official Partner</h2>
 				<NBU />
 				<h3>

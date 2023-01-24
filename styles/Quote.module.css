@@ -1,0 +1,57 @@
+.quote {
+	position: relative;
+	width: 100%;
+	background: linear-gradient(#008080, #7f0080);
+	color: white;
+	padding: 2% 5%;
+	margin: 2% 0;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.quote::before {
+	content: "";
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 1rem;
+}
+.quote * {
+	position: relative;
+	z-index: 2;
+}
+.quote figure {
+	flex-grow: 1;
+	margin: 0;
+}
+.quote figure blockquote {
+	margin: 2%;
+	font-size: 1.2em;
+}
+.quote figure blockquote > p {
+	margin: 0;
+}
+.quote figure figcaption {
+	display: grid;
+	grid-template-columns: min-content auto;
+	column-gap: 1%;
+	margin: 2%;
+}
+.quote figure figcaption * {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.quote figure figcaption::before {
+	content: "\2014";
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.quote img {
+	width: 30%;
+	height: auto;
+	flex-shrink: 0;
+}
