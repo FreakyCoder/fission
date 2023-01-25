@@ -12,6 +12,30 @@ export default function Archive() {
 			<div className={styles.content}>
 				<h1>Archive</h1>
 				<hr />
+				<h2>History</h2>
+				<p>
+					The idea about FISSION started back in 2015 between three
+					ACS Seniors (now Alumni) – Ivana Andreeva, Mihail Georgiev,
+					and Tsveta Kamenova – got inspired by the INMM Vienna
+					International Science and Engineering Fair and EUSO, and
+					decided to create a similar event at the American College of
+					Sofia. They wanted it to be an opportunity for Bulgarian
+					students to do and present their own scientific research and
+					meet interested peers, since this is a way different format
+					than the ordinary national competitions. Since then, FISSION
+					(Fair of International Student Science for Implementable
+					Original Notions) has become an annual tradition at ACS,
+					hosted every March even during the pandemic. We have
+					received lots of positive feedback from previous
+					participants, and continue to do our best to develop FISSION
+					every year.
+					<br />
+					<br />
+					<a href="/Article_from_ACS_Magazine_Issue_14_December_2015.pdf">
+						<b>An interview with the Founders of FISSION.</b>
+					</a>
+				</p>
+				<hr />
 				<h2>FISSION 2022 Awards</h2>
 				<ResponsiveTable>
 					<thead>
