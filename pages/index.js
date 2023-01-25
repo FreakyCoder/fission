@@ -9,6 +9,8 @@ import SocialMediaButtons from "../components/SocialMediaButtons";
 import RegisterNowButton from "../components/RegisterNowButton";
 import EmbedVideo from "../components/EmbedVideo";
 import Quote from "../components/Quote";
+import AAE from "../components/AAE";
+import Sponsors from "../components/Sponsors";
 
 export default function Home() {
 	return (
@@ -175,7 +177,9 @@ export default function Home() {
 						board of trustees.
 					</i>
 				</h3>
-				<DonateOrBecomeSponsorButton />
+				<hr />
+				<h2>Sponsors</h2>
+				<Sponsors />
 				<hr />
 				<h2>Follow us on social media</h2>
 				<SocialMediaButtons />

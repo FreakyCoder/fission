@@ -1,0 +1,18 @@
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.container .content {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-radius: 1rem;
+}
+
+.container .content img {
+	width: 100%;
+	height: auto;
+}
