@@ -7,7 +7,7 @@
 	margin-bottom: 2%;
 }
 .col1 {
-	height: 20em;
+	height: 50vh;
 	padding: 0;
 }
 .col1 > img {
@@ -22,20 +22,13 @@
 	justify-content: flex-start;
 	align-items: center;
 }
-@media only screen and (min-width: 768px) {
-	.container {
-		flex-direction: row;
-	}
-	.col2 {
-		align-items: flex-start;
-	}
-}
 .col2 > h1 {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 	font-size: 2rem;
 	font-weight: 300;
 	margin: 0.5rem 0;
+	text-align: center;
 }
 .col2 > h2 {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -43,6 +36,21 @@
 	font-weight: 100;
 	margin: 0.25rem 0;
 	color: rgba(0, 0, 0, 0.75);
+	text-align: center;
+}
+@media only screen and (min-width: 768px) {
+	.container {
+		flex-direction: row;
+	}
+	.col2 {
+		align-items: flex-start;
+	}
+	.col2 > h1 {
+		text-align: left;
+	}
+	.col2 > h2 {
+		text-align: left;
+	}
 }
 
 .col2 > hr {

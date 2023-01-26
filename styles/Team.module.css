@@ -1,16 +1,28 @@
 .photos {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(9, 50vh);
+	column-gap: 1vw;
+	row-gap: 1vh;
 	width: 100%;
 }
 
 .photos img {
-	object-fit: contain;
 	width: auto;
-	height: 10em;
-	margin: 1%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.photos {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		row-gap: 1vw;
+	}
+	.photos img {
+		width: 100%;
+		height: auto;
+	}
 }
 
 .leaderPhotos {

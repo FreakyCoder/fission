@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import PageWrapper from "../components/PageWrapper";
-import DonateOrBecomeSponsorButton from "../components/DonateOrBecomeSponsorButton";
 import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
@@ -9,7 +8,6 @@ import SocialMediaButtons from "../components/SocialMediaButtons";
 import RegisterNowButton from "../components/RegisterNowButton";
 import EmbedVideo from "../components/EmbedVideo";
 import Quote from "../components/Quote";
-import AAE from "../components/AAE";
 import Sponsors from "../components/Sponsors";
 
 export default function Home() {
