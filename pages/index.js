@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import PageWrapper from "../components/PageWrapper";
-import NBU from "../components/NBU";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
 import SocialMediaButtons from "../components/SocialMediaButtons";
@@ -166,17 +165,6 @@ export default function Home() {
 					available for the audience.
 				</p>
 				<Quote />
-				<h2>Official Partner</h2>
-				<NBU />
-				<h3>
-					<i>
-						Fission 2022 is brought to you with the support of the
-						Central Fund Of Strategic Development of NBU&apos;s
-						board of trustees.
-					</i>
-				</h3>
-				<hr />
-				<h2>Sponsors</h2>
 				<Sponsors />
 				<hr />
 				<h2>Follow us on social media</h2>

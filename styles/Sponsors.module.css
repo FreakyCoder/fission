@@ -1,3 +1,13 @@
+.mediaPartners {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mediaPartners > * {
+	margin: 2%;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -5,5 +15,6 @@
 }
 
 .container > * {
+	width: 50%;
 	margin-bottom: 1rem;
 }
