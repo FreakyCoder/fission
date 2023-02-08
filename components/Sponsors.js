@@ -3,6 +3,7 @@ import DonateOrBecomeSponsorButton from "./DonateOrBecomeSponsorButton";
 import styles from "../styles/Sponsors.module.css";
 import SupporterLogo from "./SupporterLogo";
 import AAE from "../public/images/AAE/logo.png";
+import BGNauka from "../public/images/BGNauka.png";
 import Danibon from "../public/images/danibon.png";
 import MediaBricksBG from "../public/images/mediabricksbg.png";
 
@@ -19,8 +20,9 @@ export default function Sponsors() {
 				</i>
 			</h3>
 			<hr />
-			<h2>Event Media Partner</h2>
+			<h2>Event Media Partners</h2>
 			<div className={styles.mediaPartners}>
+				<SupporterLogo img={BGNauka} />
 				<SupporterLogo img={Danibon} />
 				<SupporterLogo img={MediaBricksBG} />
 			</div>

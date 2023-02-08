@@ -1,6 +1,7 @@
 import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
 import ResponsiveTable from "../components/ResponsiveTable";
+import Sponsors from "../components/Sponsors";
 import SponsorshipTableCell from "../components/SponsorshipTableCell";
 import styles from "../styles/General.module.css";
 
@@ -40,7 +41,7 @@ export default function Donate() {
 					</a>
 					.
 				</p>
-				<h1>Sponsors</h1>
+				<h1>Sponsorship Packages</h1>
 				<hr />
 				<ResponsiveTable>
 					<colgroup>
@@ -156,6 +157,7 @@ export default function Donate() {
 					</a>
 					.
 				</p>
+				<Sponsors />
 			</div>
 		</PageWrapper>
 	);
