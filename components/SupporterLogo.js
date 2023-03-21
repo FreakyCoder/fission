@@ -1,12 +1,19 @@
 import Image from "next/future/image";
 import styles from "../styles/SupporterLogo.module.css";
 
-export default function SupporterLogo({ img }) {
+export default function SupporterLogo({ img, alt, href, important }) {
 	return (
-		<div className={styles.container}>
-			<div className={styles.content}>
-				<Image src={img} alt="Supported by AAE" />
+		<a
+			href={href}
+			className={styles.container}
+			style={important ? { width: "70%" } : {}}
+		>
+			<div
+				className={styles.content}
+				style={important ? { paddingBottom: 0, paddingTop: 0 } : {}}
+			>
+				<Image src={img} alt={`Supported by ${alt}`} />
 			</div>
-		</div>
+		</a>
 	);
 }

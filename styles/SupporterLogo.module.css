@@ -1,7 +1,10 @@
 .container {
-	width: 100%;
+	width: 50%;
+	margin: 2%;
 	display: flex;
 	justify-content: center;
+	text-decoration: none;
+	border: none !important;
 }
 
 .container .content {
