@@ -36,6 +36,152 @@ export default function Archive() {
 					</a>
 				</p>
 				<hr />
+				<h2>FISSION 2023 Awards</h2>
+				<ResponsiveTable>
+					<thead>
+						<tr>
+							<td>Category</td>
+							<td>Award</td>
+							<td>Project Name</td>
+							<td>Project Author(s)</td>
+							<td>Project Supervisor(s)</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowSpan={3}>
+								Physical Sciences and Engineering
+							</td>
+							<td>Best in Category (Model)</td>
+							<td>Sharo</td>
+							<td>Momchil Kolev, Kaloyan Dimitrov</td>
+							<td>David Yordanov</td>
+						</tr>
+						<tr>
+							<td>Best in Category (Experiment)</td>
+							<td>
+								Safer strategy for building against fire and
+								smoke
+							</td>
+							<td>Yuyi Chang</td>
+							<td>Mei-Ching Tang</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>E-Chess Board</td>
+							<td>Georgi Georgiev</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td rowSpan={3}>
+								Biomedical, Biological, and Chemical Sciences
+							</td>
+							<td>Best in Category (Model)</td>
+							<td>
+								Intelligent system for measuring cardiovascular
+								athletic performance
+							</td>
+							<td>Georgi Apostolov, Atanas Ibrishimov</td>
+							<td>Irina Kostadinova</td>
+						</tr>
+						<tr>
+							<td>Best in Category (Experiment)</td>
+							<td>
+								Investigating modified ZnS phosphorescent
+								materials, obtained by a non-co-precipitative
+								method
+							</td>
+							<td>Ivaylo Kartev</td>
+							<td>Martin Nedyalkov</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>Lab Games</td>
+							<td>Valentin Kirilov, Aleksandra Getsova</td>
+							<td>Dessislava Borissova</td>
+						</tr>
+						<tr>
+							<td rowSpan={3}>
+								Ecology and Environmental Science
+							</td>
+							<td>Best in Category</td>
+							<td>Omniplantus</td>
+							<td>Mario Berov, Boris Topalov</td>
+							<td>David Yordanov</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>Agrophotovoltaic Systems</td>
+							<td>Nikoleta Stoynova</td>
+							<td>Krasimira Chakarova</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>
+								Heterogeneous photocatalysis for water treatment
+							</td>
+							<td>Kalina Koleva, Ekaterina Koleva</td>
+							<td>Dobrina Ivanova</td>
+						</tr>
+						<tr>
+							<td rowSpan={2}>Computer Science</td>
+							<td>Best in Category</td>
+							<td>Smart Irrigation System</td>
+							<td>Tea Poposka, Sinem Zekir</td>
+							<td>Nergiz Akbiyik</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>Multi-function communications device</td>
+							<td>Alessia Grasso, Kemal Hasan</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td rowSpan={2}>Mathematics</td>
+							<td>Best in Category</td>
+							<td>The trigonometry poem of Pythagoras triples</td>
+							<td>Ljiljana Konjevic</td>
+							<td>Duša Vuković</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>
+								Application Of matrices in basic number theory
+								problems
+							</td>
+							<td>Michael Ivanov</td>
+							<td>Tatiana Todorova</td>
+						</tr>
+						<tr>
+							<td rowSpan={3}>Junior</td>
+							<td>Best in Category</td>
+							<td>Hydroelectric power station</td>
+							<td>Antoan Uzunov</td>
+							<td>Emil Kerkov</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>Recycling with hydraulic</td>
+							<td>Simona Kelcheva</td>
+							<td>Emil Kerkov</td>
+						</tr>
+						<tr>
+							<td>Honorable Mention</td>
+							<td>Vascular system in plants - vascular bundle</td>
+							<td>Elitsa Velkova</td>
+							<td>Maria Antonova</td>
+						</tr>
+						<tr>
+							<td>All</td>
+							<td>Audience&apos;s Choice</td>
+							<td>The trigonometry poem of Pythagoras triples</td>
+							<td>Ljiljana Konjevic</td>
+							<td>Duša Vuković</td>
+						</tr>
+					</tbody>
+				</ResponsiveTable>
+
+				<hr />
 				<h2>FISSION 2022 Awards</h2>
 				<ResponsiveTable>
 					<thead>
