@@ -7,12 +7,13 @@
 	margin-bottom: 2%;
 }
 .col1 {
-	height: 50vh;
+	width: 40%;
 	padding: 0;
+	flex-shrink: 0;
 }
 .col1 > img {
-	width: auto;
-	height: 100%;
+	width: 100%;
+	height: auto;
 }
 .col2 {
 	flex-grow: 1;
