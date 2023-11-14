@@ -1,17 +1,15 @@
 .footer {
 	width: 100%;
-	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 5%;
+	padding-top: 1%;
 	text-align: center;
 	align-self: flex-end;
-	font-size: 0.5em;
+	font-size: 0.8em;
 }
 .link {
-	text-decoration: underline;
 	transition: color 0.2s;
 }
 .link:hover {

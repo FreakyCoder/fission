@@ -17,9 +17,11 @@ export default function PageWrapper({ text, children }) {
 						<b>FISSION</b>
 					</span>
 				</section>
-				<section className={styles.content}>{children}</section>
+				<section className={styles.content}>
+					{children}
+					<Footer />
+				</section>
 			</main>
-			<Footer />
 		</div>
 	);
 }

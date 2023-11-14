@@ -39,7 +39,7 @@ export default function Home() {
 				<EmbedVideo href="https://youtube.com/embed/1i8YE69bQ8o" />
 				<h2>Where and when?</h2>
 				<p>
-					March 24th - March 25th, 2023
+					April 12th - April 13th, 2024
 					<br />
 					At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
 				</p>
@@ -50,7 +50,7 @@ export default function Home() {
 					knowledge and ideas with young scientists from all over
 					Europe, have fun and get inspired!
 				</p>
-				<h2>Timeline</h2>
+				<h2>Example Timeline(2023)</h2>
 				<table>
 					<colgroup>
 						<col width="20%" />

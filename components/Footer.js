@@ -21,7 +21,8 @@ export default function Footer() {
 				</a>
 			</span>
 			<p className={styles.text}>
-				Made with ♥ by Kaloyan Dimitrov &apos;25
+				Made with <span style={{ color: "red" }}>♥ </span>by Kaloyan
+				Dimitrov &apos;25
 			</p>
 		</footer>
 	);

@@ -8,12 +8,7 @@ export default function NavBar() {
 	const paths = [
 		{
 			href: "/",
-			content: (
-				<div className={styles.home}>
-					<Logo />
-					Home
-				</div>
-			),
+			content: "Home",
 		},
 		{
 			href: "/signup",
@@ -51,7 +46,10 @@ export default function NavBar() {
 					router.route == path.href ? (
 						<Link href={path.href} key={index}>
 							<a className={styles.link}>
-								<b>{path.content}</b>
+								<div className={styles.home}>
+									<Logo />
+									<b>{path.content}</b>
+								</div>
 							</a>
 						</Link>
 					) : (

@@ -38,7 +38,7 @@ export default function Sponsors() {
 				<DonateOrBecomeSponsorButton />
 			</div>
 			<p style={{ textAlign: "center" }}>
-				Fission 2022 is brought to you with the support of the Central
+				Fission 2023 is brought to you with the support of the Central
 				Fund Of Strategic Development of NBU&apos;s board of trustees.
 			</p>
 			<div className={styles.container}>
