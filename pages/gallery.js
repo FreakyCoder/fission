@@ -15,20 +15,20 @@ export default function Gallery({ images }) {
 			<Head>
 				<title>FISSION :: Gallery</title>
 			</Head>
-			<div className={styles.content}>
+			<div
+				className={styles.content}
+				style={{
+					display: "flex",
+					flexDirection: "column",
+					alignItems: "center",
+				}}
+			>
 				<h1>Gallery</h1>
 				<hr />
 				<div className={styles.carousel}>
 					<Carousel showThumbs={false} infiniteLoop={true}>
 						{images.map((img) => (
-							<div
-								key={img}
-								{...img.css}
-								styles={{
-									transform: "scale(1.5)",
-									filter: "blur(40px)",
-								}}
-							>
+							<div key={img} {...img.css}>
 								<Image {...img.img} alt="" />
 							</div>
 						))}

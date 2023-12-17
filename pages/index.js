@@ -36,7 +36,7 @@ export default function Home() {
 					participation from all around the world, with direct
 					communication between the participants and the jury.
 				</p>
-				<EmbedVideo href="https://youtube.com/embed/1i8YE69bQ8o" />
+				<EmbedVideo href="https://drive.google.com/file/d/1TxR-B2psR-E8FA4LgdDErfo3uy7Sh9h3/preview" />
 				<h2>Where and when?</h2>
 				<p>
 					April 12th - April 13th, 2024

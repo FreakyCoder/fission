@@ -71,10 +71,10 @@
 	height: 100%;
 }
 .carousel {
-	width: 100%;
+	width: 75%;
 	height: 100%;
 }
 .carousel img {
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }

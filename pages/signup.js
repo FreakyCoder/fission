@@ -13,7 +13,7 @@ export default function SignUp() {
 			<div className={styles.container}>
 				{spinner && (
 					<>
-						<a href="https://forms.gle/hQRSw9pTUrzFXoL26">
+						<a href="https://forms.gle/NkmAT3kBimDeJPNw6">
 							If the form does&apos;t load, click here
 						</a>
 						<span className={styles.spinner}>
@@ -22,7 +22,7 @@ export default function SignUp() {
 					</>
 				)}
 				<iframe
-					src="https://forms.gle/hQRSw9pTUrzFXoL26"
+					src="https://forms.gle/NkmAT3kBimDeJPNw6"
 					className={styles.frame}
 					onLoad={() => setSpinner(false)}
 				/>
