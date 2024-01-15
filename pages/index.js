@@ -50,7 +50,7 @@ export default function Home() {
 					knowledge and ideas with young scientists from all over
 					Europe, have fun and get inspired!
 				</p>
-				<h2>Example Timeline(2023)</h2>
+				<h2>Timeline 2024</h2>
 				<table>
 					<colgroup>
 						<col width="20%" />
@@ -58,25 +58,25 @@ export default function Home() {
 					</colgroup>
 					<tbody>
 						<tr>
-							<td>25.02.2023</td>
+							<td>16.02.2024</td>
 							<td>Registration deadline </td>
 						</tr>
 						<tr>
-							<td>12.03.2023</td>
+							<td>29.03.2024</td>
 							<td>Project submission deadline</td>
 						</tr>
 						<tr>
-							<td>24.03.2023 (Friday)</td>
+							<td>12.04.2024 (Friday)</td>
 							<td>Arrive in Sofia & Check-in</td>
 						</tr>
 						<tr>
-							<td>25.03.2023 (Saturday)</td>
+							<td>13.04.2024 (Saturday)</td>
 							<td>FISSION Event & Awards</td>
 						</tr>
 					</tbody>
 				</table>
-				<h3>On the Day of the Event (25.03.2023)</h3>
-				<ResponsiveTable>
+				<h2>On the Day of the Event (13.04.2024)</h2>
+				{/*<ResponsiveTable>
 					<colgroup>
 						<col width="20%" />
 						<col width="30%" />
@@ -205,7 +205,7 @@ export default function Home() {
 							<td>14:45 - 15:00</td>
 						</tr>
 					</tbody>
-				</ResponsiveTable>
+				</ResponsiveTable>*/}
 				<ul>
 					<li>Opening Ceremony</li>
 					<li>Meetings with jury</li>
