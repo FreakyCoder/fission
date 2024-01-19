@@ -7,6 +7,7 @@ module.exports = (phase) => ({
 		unoptimized: true,
 		path: "https://fission.acs.bg/",
 	},
+	trailingSlash: true,
 	webpack: (config) => {
 		config.resolve.fallback = {
 			fs: false,
