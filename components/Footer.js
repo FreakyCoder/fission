@@ -10,8 +10,8 @@ export default function Footer() {
 					The American College of Sofia
 				</a>
 				. All rights reserved.{" "}
-				<Link href="/team">
-					<a className={styles.link}>Contact us.</a>
+				<Link href="/team" className={styles.link}>
+					Contact us.
 				</Link>{" "}
 				<a
 					href="https://acs.bg/articles/privacy-notice/"

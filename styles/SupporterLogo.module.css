@@ -1,5 +1,7 @@
 .container {
-	width: 50%;
+	flex-basis: 20%;
+	flex-shrink: 0;
+	min-width: 300px;
 	margin: 2%;
 	display: flex;
 	justify-content: center;

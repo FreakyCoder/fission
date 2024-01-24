@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import styles from "../styles/Person.module.css";
 
 export default function Person({ img, name, caption, email }) {

@@ -1,6 +1,4 @@
-import Head from "next/head";
 import Link from "next/link";
-import PageWrapper from "../components/PageWrapper";
 import Banner from "../components/Banner";
 import styles from "../styles/General.module.css";
 import SocialMediaButtons from "../components/SocialMediaButtons";
@@ -8,75 +6,72 @@ import RegisterNowButton from "../components/RegisterNowButton";
 import EmbedVideo from "../components/EmbedVideo";
 import Quote from "../components/Quote";
 import Sponsors from "../components/Sponsors";
-import ResponsiveTable from "../components/ResponsiveTable";
+// import ResponsiveTable from "../components/ResponsiveTable";
+
+export const metadata = {
+	title: "FISSION :: Home",
+};
 
 export default function Home() {
 	return (
-		<PageWrapper text="Home of">
-			<Head>
-				<title>FISSION :: Home</title>
-			</Head>
-			<div className={styles.content}>
-				<Banner />
-				<h2>What is FISSION?</h2>
-				<p>
-					FISSION is an international science fair organized by{" "}
-					<Link href="/team">
-						<a>students</a>
-					</Link>{" "}
-					for students.
-					<br />
-					<br />
-					Our goal is to provoke students to take knowledge outside of
-					the classroom. We want to challenge their creativity as they
-					explore the practical applications of theoretical science.
-					We also aim to unite students from different countries and
-					scientific interests and create a community of ambitious
-					young scientists. The online format this year will enable
-					participation from all around the world, with direct
-					communication between the participants and the jury.
-				</p>
-				<EmbedVideo href="https://drive.google.com/file/d/1TxR-B2psR-E8FA4LgdDErfo3uy7Sh9h3/preview" />
-				<h2>Where and when?</h2>
-				<p>
-					April 12th - April 13th, 2024
-					<br />
-					At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
-				</p>
-				<RegisterNowButton />
-				<h2>Why?</h2>
-				<p>
-					FISSION is the place to meet like-minded individuals, share
-					knowledge and ideas with young scientists from all over
-					Europe, have fun and get inspired!
-				</p>
-				<h2>Timeline 2024</h2>
-				<table>
-					<colgroup>
-						<col width="20%" />
-						<col width="80%" />
-					</colgroup>
-					<tbody>
-						<tr>
-							<td>16.02.2024</td>
-							<td>Registration deadline </td>
-						</tr>
-						<tr>
-							<td>29.03.2024</td>
-							<td>Project submission deadline</td>
-						</tr>
-						<tr>
-							<td>12.04.2024 (Friday)</td>
-							<td>Arrive in Sofia & Check-in</td>
-						</tr>
-						<tr>
-							<td>13.04.2024 (Saturday)</td>
-							<td>FISSION Event & Awards</td>
-						</tr>
-					</tbody>
-				</table>
-				<h2>On the Day of the Event (13.04.2024)</h2>
-				{/*<ResponsiveTable>
+		<div className={styles.content}>
+			<Banner />
+			<h2>What is FISSION?</h2>
+			<p>
+				FISSION is an international science fair organized by{" "}
+				<Link href="/team">students</Link> for students.
+				<br />
+				<br />
+				Our goal is to provoke students to take knowledge outside of the
+				classroom. We want to challenge their creativity as they explore
+				the practical applications of theoretical science. We also aim
+				to unite students from different countries and scientific
+				interests and create a community of ambitious young scientists.
+				The online format this year will enable participation from all
+				around the world, with direct communication between the
+				participants and the jury.
+			</p>
+			<EmbedVideo href="https://drive.google.com/file/d/1TxR-B2psR-E8FA4LgdDErfo3uy7Sh9h3/preview" />
+			<h2>Where and when?</h2>
+			<p>
+				April 12th - April 13th, 2024
+				<br />
+				At ACS: Floyd Black Lane, Mladost 2, 1799 Sofia, Bulgaria
+			</p>
+			<RegisterNowButton />
+			<h2>Why?</h2>
+			<p>
+				FISSION is the place to meet like-minded individuals, share
+				knowledge and ideas with young scientists from all over Europe,
+				have fun and get inspired!
+			</p>
+			<h2>Timeline 2024</h2>
+			<table>
+				<colgroup>
+					<col width="20%" />
+					<col width="80%" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td>18.02.2024</td>
+						<td>Registration deadline </td>
+					</tr>
+					<tr>
+						<td>29.03.2024</td>
+						<td>Project submission deadline</td>
+					</tr>
+					<tr>
+						<td>12.04.2024 (Friday)</td>
+						<td>Arrive in Sofia & Check-in</td>
+					</tr>
+					<tr>
+						<td>13.04.2024 (Saturday)</td>
+						<td>FISSION Event & Awards</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>On the Day of the Event (13.04.2024)</h2>
+			{/*<ResponsiveTable>
 					<colgroup>
 						<col width="20%" />
 						<col width="30%" />
@@ -206,42 +201,40 @@ export default function Home() {
 						</tr>
 					</tbody>
 				</ResponsiveTable>*/}
-				<ul>
-					<li>Opening Ceremony</li>
-					<li>Meetings with jury</li>
-					<li>Campus tour</li>
-					<li>Other activities</li>
-					<li>Awards Ceremony</li>
-					<li>Participants departure</li>
-				</ul>
-				<p>
-					Please submit your report through the official FISSION email
-					address:{" "}
-					<a className={styles.mail} href="mailto:fission@acsbg.org">
-						fission@acsbg.org
-					</a>
-					.
-				</p>
-				<p>
-					Participants who have requested accommodation will be
-					contacted by our team. In case there is a financial hardship
-					or traveling is very inconvenient for the team, online
-					participation will also be an option. This will not
-					influence the project&apos;s score in any way, and it will
-					be evaluated equally with the projects presented in-person.
-					Online streaming of parts of the event will also be
-					available for the audience.
-				</p>
-				<Quote />
-				<Sponsors />
-				<hr />
-				<h2>Follow us on social media</h2>
-				<SocialMediaButtons />
-				<hr />
-				<h2 style={{ textAlign: "center" }}>
-					We can&apos;t wait to see you!
-				</h2>
-			</div>
-		</PageWrapper>
+			<ul>
+				<li>Opening Ceremony</li>
+				<li>Meetings with jury</li>
+				<li>Campus tour</li>
+				<li>Other activities</li>
+				<li>Awards Ceremony</li>
+				<li>Participants departure</li>
+			</ul>
+			<p>
+				Please submit your report through the official FISSION email
+				address:{" "}
+				<a className={styles.mail} href="mailto:fission@acsbg.org">
+					fission@acsbg.org
+				</a>
+				.
+			</p>
+			<p>
+				Participants who have requested accommodation will be contacted
+				by our team. In case there is a financial hardship or traveling
+				is very inconvenient for the team, online participation will
+				also be an option. This will not influence the project&apos;s
+				score in any way, and it will be evaluated equally with the
+				projects presented in-person. Online streaming of parts of the
+				event will also be available for the audience.
+			</p>
+			<Quote />
+			<Sponsors />
+			<hr />
+			<h2>Follow us on social media</h2>
+			<SocialMediaButtons />
+			<hr />
+			<h2 style={{ textAlign: "center" }}>
+				We can&apos;t wait to see you!
+			</h2>
+		</div>
 	);
 }

@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import styles from "../styles/SupporterLogo.module.css";
 
 export default function SupporterLogo({ img, alt, href, important }) {
@@ -6,7 +6,7 @@ export default function SupporterLogo({ img, alt, href, important }) {
 		<a
 			href={href}
 			className={styles.container}
-			style={important ? { width: "70%" } : {}}
+			style={important ? { width: "30%" } : {}}
 		>
 			<div
 				className={styles.content}

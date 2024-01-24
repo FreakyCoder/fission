@@ -1,8 +1,9 @@
 .nav {
 	position: fixed;
-	background:  #7f0080;
+	background: #7f0080;
 	top: 0;
 	left: 0;
+	z-index: 1000;
 	width: 100%;
 	font-size: 1rem;
 	height: 3rem;

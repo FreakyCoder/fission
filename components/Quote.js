@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import MenelaosRaptis from "../public/images/MenelaosRaptis.jpg";
 import styles from "../styles/Quote.module.css";
 

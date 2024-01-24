@@ -1,41 +1,42 @@
-import { useRouter } from "next/router";
+"use client";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
 import styles from "../styles/NavBar.module.css";
 
 export default function NavBar() {
-	const router = useRouter();
+	const route = usePathname();
 	const paths = [
 		{
 			href: "/",
 			content: "Home",
 		},
 		{
-			href: "/signup",
+			href: "/signup/",
 			content: "Sign Up",
 		},
 		{
-			href: "/guidelines",
+			href: "/guidelines/",
 			content: "Guidelines",
 		},
 		{
-			href: "/team",
+			href: "/team/",
 			content: "Team",
 		},
 		{
-			href: "/jury",
+			href: "/jury/",
 			content: "Jury",
 		},
 		{
-			href: "/archive",
+			href: "/archive/",
 			content: "Archive",
 		},
 		{
-			href: "/sponsors",
+			href: "/sponsors/",
 			content: "Sponsors",
 		},
 		{
-			href: "/gallery",
+			href: "/gallery/",
 			content: "Gallery",
 		},
 	];
@@ -43,20 +44,24 @@ export default function NavBar() {
 		<>
 			<nav className={styles.nav}>
 				{paths.map((path, index) =>
-					router.route == path.href ? (
-						<Link href={path.href} key={index}>
-							<a className={styles.link}>
-								<div className={styles.home}>
-									<Logo />
-									<b>{path.content}</b>
-								</div>
-							</a>
+					route == path.href ? (
+						<Link
+							href={path.href}
+							key={index}
+							className={styles.link}
+						>
+							<div className={styles.home}>
+								<Logo />
+								<b>{path.content}</b>
+							</div>
 						</Link>
 					) : (
-						<Link href={path.href} key={index}>
-							<a className={`${styles.link} ${styles.linkHover}`}>
-								{path.content}
-							</a>
+						<Link
+							href={path.href}
+							key={index}
+							className={`${styles.link} ${styles.linkHover}`}
+						>
+							{path.content}
 						</Link>
 					)
 				)}

@@ -17,8 +17,8 @@ export default function Sponsors() {
 		<>
 			<h2>Official Partners</h2>
 			<div className={styles.container}>
-				<SupporterLogo img={ABF} alt="America for Bulgaria" important />
 				<SupporterLogo img={NBU} alt="New Bulgarian University" />
+				<SupporterLogo img={ABF} alt="America for Bulgaria" important />
 				<SupporterLogo img={Siemens} alt="Siemens" />
 			</div>
 			<hr />
@@ -27,7 +27,7 @@ export default function Sponsors() {
 				<SupporterLogo img={DSK} alt="DSK Bank" />
 			</div>
 			<hr />*/}
-			<h2>Donator</h2>
+			<h2>Donators</h2>
 			<div className={styles.container}>
 				<SupporterLogo img={AAE} alt="AAE" />
 			</div>
@@ -37,8 +37,8 @@ export default function Sponsors() {
 				<SupporterLogo img={Danibon} alt="Danibon" />
 				<SupporterLogo img={MediaBricksBG} alt="MediaBricks" />
 				<SupporterLogo img={Telerik} alt="Telerik" />
-				<DonateOrBecomeSponsorButton />
 			</div>
+			<DonateOrBecomeSponsorButton />
 			<p style={{ textAlign: "center" }}>
 				Fission 2023 is brought to you with the support of the Central
 				Fund Of Strategic Development of NBU&apos;s board of trustees.
