@@ -1,4 +1,5 @@
 import ResponsiveTable from "../../components/ResponsiveTable";
+import ArchiveSponsors from "../../components/ArchiveSponsors";
 import styles from "../../styles/General.module.css";
 
 export const metadata = {
@@ -171,7 +172,8 @@ export default function Archive() {
 					</tr>
 				</tbody>
 			</ResponsiveTable>
-
+			<h2>FISSION 2023 Contributors</h2>
+			<ArchiveSponsors />
 			<hr />
 			<h2>FISSION 2022 Awards</h2>
 			<ResponsiveTable>
