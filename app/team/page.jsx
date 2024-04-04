@@ -18,6 +18,7 @@ import VS from "../../public/images/team/Vladislav Skrinski.jpg";
 import YD from "../../public/images/team/Yana Dimitrova.jpg";
 import YT from "../../public/images/team/Yoana Troeva.jpg";
 import SI from "../../public/images/team/Svetoslav Ivanov.jpg";
+import SN from "../../public/images/team/Stefani Naydenova.jpg";
 
 import Person from "../../components/Person";
 
@@ -64,7 +65,6 @@ export default function Team() {
 			</div>
 			<div className={styles.photos}>
 				<Image src={ED} alt="Elizabeth Dimitrova" />
-				<Image src={GP} alt="Gabriela Petrova" />
 				<Image src={IK} alt="Irina Kovacheva" />
 				<Image src={KD} alt="Kaloyan Dimitrov" />
 				<Image src={LK} alt="Lyudmila Kaneva" />
@@ -72,6 +72,7 @@ export default function Team() {
 				<Image src={VS} alt="Vladislav Skrinski" />
 				<Image src={YD} alt="Yana Dimitrova" />
 				<Image src={YT} alt="Yoana Troeva" />
+				<Image src={SN} alt="Stefani Naydenova" />
 				<Image src="" alt="" />
 				<Image src={SI} alt="Svetoslav Ivanov" />
 				<Image src="" alt="" />

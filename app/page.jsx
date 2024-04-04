@@ -53,7 +53,7 @@ export default function Home() {
 				</colgroup>
 				<tbody>
 					<tr>
-						<td>18.02.2024</td>
+						<td>29.02.2024</td>
 						<td>Registration deadline </td>
 					</tr>
 					<tr>

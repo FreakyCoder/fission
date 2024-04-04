@@ -33,6 +33,7 @@ export default function Gallery({ images }) {
 							</div>
 						))}
 					</Carousel>
+					<EmbedVideo href="https://www.youtube.com/embed/rlOmxZWFPoY" />
 					<EmbedVideo href="https://www.youtube.com/embed/ipklzavOcPI" />
 					<EmbedVideo href="https://www.youtube.com/embed/2CXRurdJ8P0" />
 					<EmbedVideo href="https://www.youtube.com/embed/WE0VdKHAcuQ" />
