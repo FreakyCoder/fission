@@ -96,13 +96,13 @@ export default function Home() {
 						<td>16:30 - 19:00</td>
 						<td>Registration</td>
 						<td>Ostrander</td>
-						<td>Students and Teachers</td>
+						<td>Students and Supervisors</td>
 					</tr>
 					<tr>
 						<td>17:30 - 18:30</td>
 						<td>Welcome Reception</td>
 						<td>Cafeteria and Ostrander</td>
-						<td>Students and Teachers</td>
+						<td>Students and Supervisors</td>
 					</tr>
 					<tr>
 						<td colSpan={4} className={styles.scheduleDay}>
@@ -113,16 +113,17 @@ export default function Home() {
 						<td>8:00 - 9:00</td>
 						<td>Set up</td>
 						<td>Bubble</td>
-						<td>Students</td>
+						<td>Students and Supervisors and Supervisors</td>
 					</tr>
 					<tr>
 						<td>9:00 - 9:30</td>
 						<td rowSpan={3}>Opening Ceremony</td>
 						<td rowSpan={3}>Whitaker Auditorium</td>
 						<td rowSpan={3}>
-							Esteemed Guests: Front Rows Students and Teachers:
-							Mid Rows Guests and Alumni: Tail Rows Organizers:
-							Backstage
+							Esteemed Guests: Front Rows <br />
+							Students and Teachers: Mid Rows <br />
+							Guests and Alumni: Tail Rows <br />
+							Organizers: Backstage <br />
 						</td>
 					</tr>
 					<tr>
@@ -142,9 +143,10 @@ export default function Home() {
 						<td rowSpan={10}>Presentation of projects</td>
 						<td rowSpan={10}>Bubble</td>
 						<td rowSpan={10}>
-							Juniors: Inner Circle All Other Categories: Outer
-							Circle Partners: On Tables at Entrance Teachers,
-							Jury, Guests: Walk Around
+							Juniors: Inner Circle <br />
+							All Other Categories: Outer <br />
+							Circle Partners: On Tables at Entrance <br />
+							Teachers, Jury, Guests: Walk Around
 						</td>
 					</tr>
 					<tr>
