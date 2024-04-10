@@ -17,11 +17,13 @@ import DevStyleR from "../public/images/DevStyleR.png";
 import Uchi from "../public/images/Uchi.png";
 import Focus from "../public/images/Focus.png";
 import Kafene from "../public/images/Kafene.png";
-import Puzl from "../public/images/Puzl.png";
+// import Puzl from "../public/images/Puzl.png";
 import PixelMedia from "../public/images/PixelMedia.gif";
-// import DSK from "../public/images/dsk.png";
-// import Telerik from "../public/images/telerik.png";
-// import MediaBricksBG from "../public/images/mediabricksbg.png";
+import BNR from "../public/images/BNR.png";
+import BNT from "../public/images/BNT.png";
+import ACC from "../public/images/ACC.png";
+import Knoppers from "../public/images/Knoppers.png";
+import AUBG from "../public/images/AUBG.png";
 // import ACS from "../public/images/acs.png";
 
 export default function Sponsors() {
@@ -52,8 +54,14 @@ export default function Sponsors() {
 				<SupporterLogo img={PixelMedia} alt="PixelMedia" />
 				<SupporterLogo img={Focus} alt="Focus" />
 				<SupporterLogo img={TukTam} alt="TukTam" />
-				{/* <SupporterLogo img={MediaBricksBG} alt="MediaBricks" /> */}
-				{/* <SupporterLogo img={Telerik} alt="Telerik" /> */}
+				<SupporterLogo img={BNR} alt="BNR" />
+				<SupporterLogo img={BNT} alt="BNT" />
+				<SupporterLogo img={ACC} alt="ACC" />
+			</div>
+			<h2>In-kind</h2>
+			<div className={styles.container}>
+				<SupporterLogo img={Knoppers} alt="Knoppers" />
+				<SupporterLogo img={AUBG} alt="AUBG" />
 			</div>
 			<DonateOrBecomeSponsorButton />
 			<p style={{ textAlign: "center" }}>

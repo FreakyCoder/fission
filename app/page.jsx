@@ -6,7 +6,7 @@ import RegisterNowButton from "../components/RegisterNowButton";
 import EmbedVideo from "../components/EmbedVideo";
 import Quote from "../components/Quote";
 import Sponsors from "../components/Sponsors";
-// import ResponsiveTable from "../components/ResponsiveTable";
+import ResponsiveTable from "../components/ResponsiveTable";
 
 export const metadata = {
 	title: "FISSION :: Home",
@@ -71,144 +71,165 @@ export default function Home() {
 				</tbody>
 			</table>
 			<h2>On the Day of the Event (13.04.2024)</h2>
-			{/*<ResponsiveTable>
-					<colgroup>
-						<col width="20%" />
-						<col width="30%" />
-						<col width="20%" />
-						<col width="30%" />
-					</colgroup>
-					<thead>
-						<tr>
-							<th>Time</th>
-							<th>Activity</th>
-							<th>Location</th>
-							<th>Participants</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>8:45 - 9:00</td>
-							<td rowSpan={2}>Registration</td>
-							<td rowSpan={2}>Bubble</td>
-							<td rowSpan={2}>Students</td>
-						</tr>
-						<tr>
-							<td>9:00 - 9:15</td>
-						</tr>
-						<tr>
-							<td>9:15 - 9:30</td>
-							<td rowSpan={3}>
-								Opening Ceremony(+creative group)
-								<br />
-								Online stream on ZOOM
-							</td>
-							<td rowSpan={4}>Whitaker Auditorium</td>
-							<td rowSpan={4}>
-								Esteemed Guests: Front Rows Students and
-								Teachers: Mid Rows Guests: Back Rows
-							</td>
-						</tr>
-						<tr>
-							<td>9:30 - 9:45</td>
-						</tr>
-						<tr>
-							<td>9:45 - 10:00</td>
-						</tr>
-						<tr>
-							<td>10:00 - 10:15</td>
-							<td>Climate Change Lecture(WWF)</td>
-						</tr>
-						<tr>
-							<td>10:15 - 10:30</td>
-							<td>Transition</td>
-							<td>To Bubble</td>
-							<td>Everyone</td>
-						</tr>
-						<tr>
-							<td>10:30 - 10:45</td>
-							<td rowSpan={8}>Presentation of projects</td>
-							<td rowSpan={8}>Bubble</td>
-							<td rowSpan={8}>
-								Juniors: Inner Circle All Other Categories:
-								Outer Circle Partners: On Tables at Entrance
-								Teachers, Jury, Guests: Walk Around
-							</td>
-						</tr>
-						<tr>
-							<td>10:45 - 11:00</td>
-						</tr>
-						<tr>
-							<td>11:00 - 11:15</td>
-						</tr>
-						<tr>
-							<td>11:15 - 11:30</td>
-						</tr>
-						<tr>
-							<td>11:30 - 11:45</td>
-						</tr>
-						<tr>
-							<td>11:45 - 12:00</td>
-						</tr>
-						<tr>
-							<td>12:00 - 12:15</td>
-						</tr>
-						<tr>
-							<td>12:15 - 12:30</td>
-						</tr>
-						<tr>
-							<td>12:30 - 12:45</td>
-							<td rowSpan={4}>Lunch</td>
-							<td rowSpan={4}>Cafeteria</td>
-							<td rowSpan={4}>Everyone</td>
-						</tr>
-						<tr>
-							<td>12:45 - 13:00</td>
-						</tr>
-						<tr>
-							<td>13:00 - 13:15</td>
-						</tr>
-						<tr>
-							<td>13:15 - 13:30</td>
-						</tr>
-						<tr>
-							<td>13:30 - 13:45</td>
-							<td rowSpan={4}>Tours or Seminar STEM Education</td>
-							<td rowSpan={4}>Around School or Gipson Library</td>
-							<td rowSpan={4}>Students and Guests or Teachers</td>
-						</tr>
-						<tr>
-							<td>13:45 - 14:00</td>
-						</tr>
-						<tr>
-							<td>14:00 - 14:15</td>
-						</tr>
-						<tr>
-							<td>14:15 - 14:30</td>
-						</tr>
-						<tr>
-							<td>14:30 - 14:45</td>
-							<td rowSpan={2}>
-								Awards + Closing Ceremony
-								<br />
-								Online stream on ZOOM
-							</td>
-							<td rowSpan={2}>Whitaker Auditorium</td>
-							<td rowSpan={2}>Everyone</td>
-						</tr>
-						<tr>
-							<td>14:45 - 15:00</td>
-						</tr>
-					</tbody>
-				</ResponsiveTable>*/}
-			<ul>
-				<li>Opening Ceremony</li>
-				<li>Meetings with jury</li>
-				<li>Campus tour</li>
-				<li>Other activities</li>
-				<li>Awards Ceremony</li>
-				<li>Participants departure</li>
-			</ul>
+			<ResponsiveTable>
+				<colgroup>
+					<col width="20%" />
+					<col width="30%" />
+					<col width="20%" />
+					<col width="30%" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Activity</th>
+						<th>Location</th>
+						<th>Participants</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colSpan={4} className={styles.scheduleDay}>
+							<b>Day 1(April 12th, Friday)</b>
+						</td>
+					</tr>
+					<tr>
+						<td>16:30 - 19:00</td>
+						<td>Registration</td>
+						<td>Ostrander</td>
+						<td>Students and Teachers</td>
+					</tr>
+					<tr>
+						<td>17:30 - 18:30</td>
+						<td>Welcome Reception</td>
+						<td>Cafeteria and Ostrander</td>
+						<td>Students and Teachers</td>
+					</tr>
+					<tr>
+						<td colSpan={4} className={styles.scheduleDay}>
+							<b>Day 2(April 13th, Saturday)</b>
+						</td>
+					</tr>
+					<tr>
+						<td>8:00 - 9:00</td>
+						<td>Set up</td>
+						<td>Bubble</td>
+						<td>Students</td>
+					</tr>
+					<tr>
+						<td>9:00 - 9:30</td>
+						<td rowSpan={3}>Opening Ceremony</td>
+						<td rowSpan={3}>Whitaker Auditorium</td>
+						<td rowSpan={3}>
+							Esteemed Guests: Front Rows Students and Teachers:
+							Mid Rows Guests and Alumni: Tail Rows Organizers:
+							Backstage
+						</td>
+					</tr>
+					<tr>
+						<td>9:30 - 9:45</td>
+					</tr>
+					<tr>
+						<td>9:45 - 10:00</td>
+					</tr>
+					<tr>
+						<td>10:00 - 10:30</td>
+						<td>Transition</td>
+						<td>To Bubble</td>
+						<td>Everyone</td>
+					</tr>
+					<tr>
+						<td>10:30 - 10:45</td>
+						<td rowSpan={10}>Presentation of projects</td>
+						<td rowSpan={10}>Bubble</td>
+						<td rowSpan={10}>
+							Juniors: Inner Circle All Other Categories: Outer
+							Circle Partners: On Tables at Entrance Teachers,
+							Jury, Guests: Walk Around
+						</td>
+					</tr>
+					<tr>
+						<td>10:45 - 11:00</td>
+					</tr>
+					<tr>
+						<td>11:00 - 11:15</td>
+					</tr>
+					<tr>
+						<td>11:15 - 11:30</td>
+					</tr>
+					<tr>
+						<td>11:30 - 11:45</td>
+					</tr>
+					<tr>
+						<td>11:45 - 12:00</td>
+					</tr>
+					<tr>
+						<td>12:00 - 12:15</td>
+					</tr>
+					<tr>
+						<td>12:15 - 12:30</td>
+					</tr>
+					<tr>
+						<td>12:30 - 12:45</td>
+					</tr>
+					<tr>
+						<td>12:45 - 13:00</td>
+					</tr>
+					<tr>
+						<td>13:00 - 13:15</td>
+						<td>Transition to lunch</td>
+						<td>To Cafeteria</td>
+						<td>Everyone</td>
+					</tr>
+					<tr>
+						<td>13:15 - 13:30</td>
+						<td rowSpan={4}>Lunch</td>
+						<td rowSpan={4}>Cafeteria</td>
+						<td rowSpan={4}>Everyone</td>
+					</tr>
+					<tr>
+						<td>13:30 - 13:45</td>
+					</tr>
+					<tr>
+						<td>13:45 - 14:00</td>
+					</tr>
+					<tr>
+						<td>14:00 - 14:15</td>
+					</tr>
+					<tr>
+						<td>14:15 - 14:30</td>
+						<td>Break + preparation for modules</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>14:30 - 14:45</td>
+						<td rowSpan={4}>
+							Campus tours and Past Project Presentation In
+							Whitaker Auditorium
+						</td>
+						<td rowSpan={4}>Around School or Auditorium</td>
+						<td rowSpan={4}>Students and Guests or Teachers</td>
+					</tr>
+					<tr>
+						<td>14:45 - 15:00</td>
+					</tr>
+					<tr>
+						<td>15:00 - 15:15</td>
+					</tr>
+					<tr>
+						<td>15:15 - 15:30</td>
+					</tr>
+					<tr>
+						<td>15:30 - 16:00</td>
+						<td rowSpan={2}>Awards + Closing Ceremony</td>
+						<td rowSpan={2}>Whitaker Auditorium</td>
+						<td rowSpan={2}>Everyone</td>
+					</tr>
+					<tr>
+						<td>16:00 - 16:30</td>
+					</tr>
+				</tbody>
+			</ResponsiveTable>
 			<p>
 				Please submit your report through the official FISSION email
 				address:{" "}
